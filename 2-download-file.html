@@ -5,7 +5,7 @@
 	<title>Сказитель - расшифровка аудио и видео с помощью ИИ</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20240219131459">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240219180245">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,6 @@
 			<a href="7-ready.html">7. 4 файла в очереди</a>
 		</div>
 		<header class="header">
-
 			<div class="header header">
 				<div class="header__container">
 					<div class="header__body">
@@ -46,14 +45,12 @@
 								<li class="nav__item">
 									<a data-goto="#contacts" href="#" class="nav__link">Контакты</a>
 								</li>
-
 							</ul>
 							<a class="top-header__btn btn btn_header" href="">
 								<img src="img/btn/plus-orange.svg" alt="">
 								<span>Добавить файл</span>
 							</a>
 						</nav>
-
 						<div class="header__social social">
 							<!--vk  -->
 							<a title="vk" target="_blank" href="" class="social__icon">
@@ -69,7 +66,6 @@
 								<img src="img/social/email.svg" alt="">
 							</a>
 						</div>
-
 						<div class="header__menu menu">
 							<button type="button" class="menu__icon icon-menu">
 								<span></span>
@@ -78,7 +74,6 @@
 							</button>
 							<nav class="menu__body">
 								<ul class="menu__list">
-
 									<li class="menu__item">
 										<a data-goto="#product" href="#" class="menu__link">О продукте</a>
 									</li>
@@ -91,21 +86,14 @@
 									<li class="menu__item">
 										<a data-goto="#contacts" href="#" class="menu__link">Контакты</a>
 									</li>
-
-
-
-
 								</ul>
 							</nav>
 						</div>
-
 					</div>
 				</div>
-
 			</div>
 		</header>
 		<main class="page">
-
 			<section class="promo">
 				<div class="promo__container">
 					<div class="promo__body">
@@ -152,7 +140,7 @@
 							</ul> -->
 
 							<!-- боковое поле загрузки -->
-							<form method="post" class="line__subject dropzone" id="audio" enctype="multipart/form-data" action="/audio_upload">
+							<form method="post" class="line__subject">
 								<div class="dz-default dz-message">
 									<span>Добавьте ваш файл для расшифровки</span>
 								</div>
@@ -221,7 +209,7 @@
 							<!-- 		<div class="promo__branch branch">
 								<div class="branch__label label">Загрузка файла</div>
 								<div class="branch__add">
-									<form method="post" class="branch__subject dropzone" id="audio" enctype="multipart/form-data" action="/audio_upload">
+									<form method="post" class="branch__subject">
 										<div class="dz-default dz-message">
 											<div class="branch__block">
 												<img src="img/icon/download.svg" alt="">
@@ -456,7 +444,6 @@
 		</main>
 		<footer class="footer">
 			<div class="footer__dash dash"></div>
-
 			<div class="footer__top top-footer">
 				<div class="top-footer__container">
 					<div class="top-footer__body">
@@ -464,8 +451,6 @@
 							<picture><source srcset="img/logo/4.webp" type="image/webp"><img src="img/logo/4.jpg" alt=""></picture>
 							<span>казитель</span>
 						</a>
-
-
 						<ul class="top-footer__list">
 							<li class="top-footer__item">
 								<a data-goto="#product" href="#" class="top-footer__link">О продукте</a>
@@ -479,18 +464,11 @@
 							<li class="top-footer__item">
 								<a data-goto="#contacts" href="#" class="top-footer__link">Контакты</a>
 							</li>
-
 						</ul>
-
-
-
 						<a class="top-footer__btn btn" href="">
 							<img src="img/btn/plus.svg" alt="">
 							<span>Добавить файл</span>
 						</a>
-
-
-
 					</div>
 				</div>
 			</div>
@@ -499,39 +477,18 @@
 					<div class="bottom-footer__body">
 						<a href="" class="bottom-footer__item">Публичная оферта</a>
 						<a href="" class="bottom-footer__item">Согласие на обработку персональных данных</a>
-
 						<div class="bottom-footer__item">
 							2024 г
 						</div>
 					</div>
 				</div>
 			</div>
+			<a href="#" id="toTop" class="arrow-up">
+				<img src="img/icon/arrow.svg" alt="">
+			</a>
+		</footer>
 	</div>
-	<a href="#" id="toTop" class="arrow-up">
-		<img src="img/icon/arrow.svg" alt="">
-
-	</a>
-	</footer>
-	</div>
-	<!--попап после отправки формы---->
-	<div id="form-message" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<picture><source srcset="..img/pop" type="image/webp"><img src="..img/pop" alt=""></picture>
-				<div class="popup__image">
-					<picture><source srcset="img/popup/popup-check.webp" type="image/webp"><img src="img/popup/popup-check.png" alt="Check"></picture>
-				</div>
-				<div class="popup__title">
-					Отлично!
-				</div>
-				<div class="popup__text">
-					Данные отправлены
-				</div>
-				<button data-close type="button" class="popup__close btn">Хорошо</button>
-			</div>
-		</div>
-	</div>
-	<script src="js/app.min.js?_v=20240219131459"></script>
+	<script src="js/app.min.js?_v=20240219180245"></script>
 </body>
 
 </html>
